@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'customer',
     'crispy_forms',
+    'rest_framework',
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
@@ -101,7 +103,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
+# SESSION_SAVE_EVERY_REQUEST = True
+# SESSION_COOKIE_AGE = 6
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
